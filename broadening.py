@@ -54,7 +54,7 @@ def broaden(singlet_name, triplet_name, energy="eV", broadening=0.2,
   points = np.linspace(e_min, e_max, n_points)
 
   # create figure, axes etc
-  fig, ax_ev = plt.subplots(figsize=(10, 6))
+  fig, ax_ev = plt.subplots(figsize=(6, 4))
   ax_ev.set_xlim(e_min, e_max)
   ax_ev.set_xlabel("energy (eV)")
   ax_ev.set_ylabel("intensity")

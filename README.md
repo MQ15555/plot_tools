@@ -1,2 +1,1 @@
-# plot_tools
-Simple tools for plotting
+# Plotting tools 
